@@ -1,12 +1,13 @@
+try:
+    from data_structures.Tree import *
+except:
+    pass
+
+
 # O(n) solution
 class Solution:
 
     def buildTree(self, inorder_cartesian_traversal: list):
-        # cartesian tree and inorder traversal
-        # no duplicates
-        return self.buildTree_linear(inorder_cartesian_traversal)
-
-    def buildTree_linear(self, inorder_cartesian_traversal: list):
         length = len(inorder_cartesian_traversal)
         if length == 0:
             return None
