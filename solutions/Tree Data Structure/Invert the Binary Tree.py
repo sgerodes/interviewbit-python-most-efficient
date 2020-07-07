@@ -5,6 +5,7 @@
 #        self.left = None
 #        self.right = None
 
+# O(n) time O(1) space
 class Solution:
     # @param A : root node of tree
     # @return the root node in the tree
