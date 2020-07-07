@@ -33,6 +33,12 @@ class Solution:
         return head
 
 
+# The algorithm
+#
+# - convert right subtree to a flatten list
+# - if left is present convert left to a flatten tree. squash the left subtree between current node and the right subtree. (current.right= left, left.tail = right). You need to store the tail (the last leaf node) of the left subtree for that.
+#
+# Start from bottom, going up. A single leaf node is already flattened (obviously).
 
 
 if __name__ == '__main__':
