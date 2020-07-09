@@ -45,6 +45,7 @@ class Solution:
     # @param infronts : list of integers
     # @return a list of integers
 
+    #segment tree is not correct
     def order(self, heights: list, infronts: list):
         length = len(heights)
 
